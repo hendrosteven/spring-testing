@@ -20,7 +20,7 @@ public class SpringTestingApplicationTests {
     @Test    
     public void contextLoads() {
         Assert.assertEquals(expected, 
-                helloService.sayHello("Hendro"));        
+                helloService.sayHello("hendro"));        
     }
 
 }
